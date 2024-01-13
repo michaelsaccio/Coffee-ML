@@ -30,7 +30,7 @@ This project focuses on predicting coffee degradation using taste notes. The goa
 
 ## Usage: Predict Coffee Degradation
 
-To predict coffee degradation based on new taste notes, use the `predict_coffee_degradation` function.
+To predict coffee degradation based on new taste notes, use one of the two `predict_coffee_degradation` functions.
 
 ```python
 # Example Usage:
