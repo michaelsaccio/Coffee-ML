@@ -6,7 +6,7 @@ This project focuses on predicting coffee degradation using taste notes. The goa
 
 ## Results
 
-As of the latest update (2024-01-13), the NLP model demonstrates approximately 15% improvement in predicting coffee degradation compared to using the sample mean. While this improvement might not be considered groundbreaking, it signifies a statistically significant impact of taste notes on degradation. The significance is validated through a paired t-test, indicating that the effect of taste notes can be predicted to a certain degree.
+As of the latest update (2024-01-13), the NLP model demonstrates approximately 19% improvement in predicting coffee degradation compared to using the sample mean. While this improvement might not be considered groundbreaking, it signifies a statistically significant impact of taste notes on degradation. The significance is validated through a paired t-test, indicating that the effect of taste notes can be predicted to a certain degree.
 
 ## Project Structure
 
