@@ -42,8 +42,6 @@ new_taste_notes_input = "citrus, chocolate, nutty"
 predict_coffee_degradation(new_taste_notes_input)
 ```
 
-This function preprocesses the input taste notes, vectorizes them using the TF-IDF vectorizer, and predicts the delta using the trained Random Forest model. The result is the predicted delta for the new taste notes.
-
 Feel free to experiment with different taste note combinations to assess coffee quality predictions.
 
 ## Sources
