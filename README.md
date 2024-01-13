@@ -34,13 +34,15 @@ As of the latest update (2024-01-13), the NLP model demonstrates approximately 1
 
 ## Usage: Predict Coffee Degradation
 
-To predict coffee degradation based on new taste notes, use one of the two `predict_coffee_degradation` functions.
+To predict coffee degradation based on new taste notes, use the `predict_coffee_degradation_NLP` function.
 
 ```python
 # Example Usage:
 new_taste_notes_input = "citrus, chocolate, nutty"
 predict_coffee_degradation(new_taste_notes_input)
 ```
+
+This function preprocesses the input taste notes, vectorizes them using the TF-IDF vectorizer, and predicts the delta using the trained Random Forest model. The result is the predicted delta for the new taste notes.
 
 Feel free to experiment with different taste note combinations to assess coffee quality predictions.
 
